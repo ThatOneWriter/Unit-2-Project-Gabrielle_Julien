@@ -62,8 +62,9 @@ public class LinearEquation {
         System.out.print("\n" + "Enter your second Coordinate Point: ");
         String y = s.nextLine();
 
-        System.out.print("\n" + "First pair: " + set_xValue() + "\n");
-        System.out.print("Second pair: " + set_yValue() + "\n");
+        System.out.print("\n" + "First pair: " + x + "\n");
+        System.out.print("Second pair: " + y + "\n");
+
         System.out.print("Slope of line: " + slope() + "\n");
         System.out.print("Y-intercept: " + y_intercept() + "\n");
         System.out.print("Slope intercept form: " + slope + "x +" + y_intercept + "\n");
